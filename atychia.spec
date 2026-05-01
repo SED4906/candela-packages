@@ -1,5 +1,5 @@
 Name:          atychia
-Version:       0.19
+Version:       0.19.3
 Release:       3%{?dist}
 License:       GPL-2.0-or-later
 Summary:       A utility akin to Ctrl-Alt-Delete on Windows that allows a user to recover from a broken session, rather than being forced to a TTY.
