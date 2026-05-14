@@ -5,7 +5,7 @@ Summary:        A simple GUI for managing systemd units.
 
 License:        MIT
 URL:            https://4906.org/
-Source0:        hhttps://github.com/SED4906/%{name}/archive/refs/tags/%{version}.tar.gz#/systemcontrol-0.1.0.tar.gz
+Source0:        https://github.com/SED4906/%{name}/archive/refs/tags/%{version}.tar.gz#/systemcontrol-0.1.0.tar.gz
 
 Requires:       cargo-rpm-macros
 
