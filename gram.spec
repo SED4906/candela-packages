@@ -1,6 +1,6 @@
 %global debug_package %{nil}
 Name:           gram
-Version:        1.2.1
+Version:        2.0.0
 Release:        1%{?dist}
 Summary:        The Gram Code Editor
 
@@ -35,5 +35,7 @@ cp share/applications/gram.desktop %{buildroot}%{_datadir}/applications/gram.des
 %license licenses.md
 
 %changelog
+* Sun May 17 2026 SED4906 <sed4906birdie@gmail.com>
+- Update to 2.0.0
 * Sat May 02 2026 SED4906 <sed4906birdie@gmail.com>
 - Initial packaging
