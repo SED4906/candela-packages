@@ -1,5 +1,5 @@
 Name:           systemcontrol
-Version:        0.1.0
+Version:        0.1.1
 Release:        1%{?dist}
 Summary:        A simple GUI for managing systemd units.
 
@@ -32,5 +32,7 @@ cp res/systemcontrol.desktop %{buildroot}%{_datadir}/applications/systemcontrol.
 %{_datadir}/icons/hicolor/scalable/apps/systemcontrol.svg
 
 %changelog
+* Tue May 19 2026 SED4906 <sed4906birdie@gmail.com>
+- Update to 0.1.1
 * Thu May 14 2026 SED4906 <sed4906birdie@gmail.com>
 - Initial packaging
