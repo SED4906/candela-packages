@@ -1,6 +1,6 @@
 %global debug_package %{nil}
 Name:           gram
-Version:        2.1.2
+Version:        2.2.0
 Release:        1%{?dist}
 Summary:        The Gram Code Editor
 
