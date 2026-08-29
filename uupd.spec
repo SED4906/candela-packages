@@ -22,7 +22,7 @@ A simple updater for Universal Blue systems
 %global debug_package %{nil}
 
 %prep
-%autosetup
+%autosetup -n uupd-fd09b47a1e56ba93cb84feffec8ceaa202462fdc
 
 %build
 go build -v -o %{name}
