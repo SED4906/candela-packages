@@ -15,7 +15,7 @@ Summary:    Display existing (xdg-shell) Wayland applications as a wallpaper (la
 
 License:    GPLv3
 URL:        https://gitlab.freedesktop.org/mstoeckl/windowtolayer
-Source:     %{url}/-/archive/v%{version}/windowtolayer-v%{version}.tar.gz#/windowtolayer-0.3.0.tar.gz
+Source:     %{url}/-/archive/v%{version}/windowtolayer-v%{version}.tar.gz#/windowtolayer-0.4.0.tar.gz
 
 BuildRequires:  gcc
 BuildRequires:  cargo-rpm-macros
