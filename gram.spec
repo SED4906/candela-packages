@@ -24,12 +24,12 @@ cp bin/gram %{buildroot}%{_bindir}/gram
 cp libexec/gram-editor %{buildroot}%{_libexecdir}/gram-editor
 cp share/icons/hicolor/scalable/apps/app.liten.Gram.svg %{buildroot}%{_datadir}/icons/hicolor/scalable/apps/app.liten.Gram.svg
 cp share/icons/hicolor/symbolic/apps/app.liten.Gram-symbolic.svg %{buildroot}%{_datadir}/icons/hicolor/symbolic/apps/app.liten.Gram-symbolic.svg
-cp share/applications/gram.desktop %{buildroot}%{_datadir}/applications/gram.desktop
+cp share/applications/app.liten.Gram.desktop %{buildroot}%{_datadir}/applications/app.liten.Gram.desktop
 
 %files
 %{_bindir}/gram
 %{_libexecdir}/gram-editor
-%{_datadir}/applications/gram.desktop
+%{_datadir}/applications/app.liten.Gram.desktop
 %{_datadir}/icons/hicolor/scalable/apps/app.liten.Gram.svg
 %{_datadir}/icons/hicolor/symbolic/apps/app.liten.Gram-symbolic.svg
 %license licenses.md
