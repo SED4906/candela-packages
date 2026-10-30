@@ -1,10 +1,10 @@
 Name:           uupd
-Version:        1.4.0
+Version:        1.5.5
 Release:        3%{?dist}
 Summary:       Centralized update service/checker made for Universal Blue
 Vendor:        ublue-os
 URL:           https://github.com/%{vendor}/%{name}
-Source0:        %{url}/archive/fd09b47a1e56ba93cb84feffec8ceaa202462fdc.tar.gz
+Source0:        %{url}/archive/refs/tags/v1.5.5.tar.gz
 License:        Apache-2.0
 
 BuildRequires:  golang
@@ -22,7 +22,7 @@ A simple updater for Universal Blue systems
 %global debug_package %{nil}
 
 %prep
-%autosetup -n uupd-fd09b47a1e56ba93cb84feffec8ceaa202462fdc
+%autosetup
 
 %build
 go build -v -o %{name}
