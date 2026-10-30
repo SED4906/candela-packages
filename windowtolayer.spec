@@ -9,7 +9,7 @@
 ## END: Set by rpmautospec
 
 Name:       windowtolayer
-Version:    0.3.1
+Version:    0.4.0
 Release:    %{autorelease}
 Summary:    Display existing (xdg-shell) Wayland applications as a wallpaper (layer-shell) instead
 
